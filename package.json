@@ -1,7 +1,16 @@
 {
 	"name": "shoping-list",
 	"version": "1.0.0",
+	"scripts": {
+		"start": "node server.js",
+		"start:dev": "supervisor server.js"
+	},
+	"main": "server.js",
 	"dependencies": {
+		"lodash-es": "^4.17.11",
 		"node-telegram-bot-api": "^0.30.0"
+	},
+	"devDependencies": {
+		"dotenv": "^8.0.0"
 	}
 }
