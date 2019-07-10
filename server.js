@@ -1,13 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api'),
-	router = require('./routers');
-
-if(!process.env.TOKEN){
-	const dotenv = require('dotenv');
-	dotenv.config();
-}
-
-// Create a bot that uses 'polling' to fetch new updates
-const BOT = new TelegramBot(process.env.TOKEN, {polling: true});
+	router = require('./routers'),
+	// Create a bot that uses 'polling' to fetch new updates
+	BOT = new TelegramBot(process.env.TOKEN, {polling: true});
 
 router.setBot(BOT);
 

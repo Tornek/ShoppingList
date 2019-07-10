@@ -1,16 +1,24 @@
 {
 	"name": "shoping-list",
 	"version": "1.0.0",
-	"scripts": {
-		"start": "node server.js",
-		"start:dev": "supervisor server.js"
-	},
 	"main": "server.js",
 	"dependencies": {
-		"lodash-es": "^4.17.11",
+		"lodash": "^4.17.14",
 		"node-telegram-bot-api": "^0.30.0"
 	},
-	"devDependencies": {
-		"dotenv": "^8.0.0"
+	"engine": {
+		"node": "*",
+		"npm": "*"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tornek/ShoppingList"
+	},
+	"author": "Vladislav Lavrov <lavrovv-v@yandex.ru>",
+	"bugs": {
+		"url": "https://github.com/Tornek/ShoppingList/issues"
 	}
 }
