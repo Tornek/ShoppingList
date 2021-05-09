@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "server.js",
 	"dependencies": {
-		"lodash": "^4.17.14",
+		"lodash": "^4.17.21",
 		"node-telegram-bot-api": "^0.30.0"
 	},
 	"engine": {
